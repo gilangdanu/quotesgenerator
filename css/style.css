@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Josefin+Slab:400,400italic,600,600italic);
 
 /* CUSTOMIZE STARTS FROM HERE */
 /* BIRU-GOLDEN */
@@ -41,17 +42,18 @@
   animation-name: fadeInDown;
 }
 
-
+h2 {
+	font-weight: 600;
+}
 
 h2, h3 {
-    font-family: serif;
+    font-family: 'Josefin Slab',serif;
     color: #68522D;
     text-align: justify;
 }
     
 h3.author {
     padding-top: .5rem;
-    font-size: 1.414rem;
     font-style: italic;
     color: #68522D;
     text-align: right;
@@ -104,6 +106,9 @@ h3.author {
 .button--bordered {
 border-color: #a78856;
 color: #a78856;
+letter-spacing: .4rem;
+margin-left: auto;
+margin-right: auto;
 }
 
 #pencetrefreshstyle6 >
@@ -122,13 +127,24 @@ color: #a78856;
 }
     
 #kutipan li h2 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 2rem;
     
 }
 }
 
-@media screen and (max-height: 352px) {
+@media screen and (max-width: 768px) {
 #catatan {
     display: none;
+}
+}
+
+@media screen and (max-height: 500px) {
+	h2 {
+		font-size: 1rem;
+	}
+	
+	h3 {
+		font-size: .8rem;
+	}
 }

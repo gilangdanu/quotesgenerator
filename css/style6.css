@@ -46,15 +46,14 @@
 
 h2, h3 {
     border-top: 2px solid #4f4f4f;
-    font-family: serif;
+    font-family: 'Crimson Text', serif;
     color: #4f4f4f;
     text-align: justify;
-    padding-top:2.2rem;   
+    padding-top:2rem;   
 }
 
 h3.author {
-    font-size: 1.414rem;
-    font-family: serif;
+    font-family: 'Crimson Text', serif;
     color: #4f4f4f;
     text-align: center;
 
@@ -117,6 +116,8 @@ text-transform: uppercase;
 
 #catatan h4 {
     color:#68522D;
+	font-family: sans-serif;
+	text-transform: uppercase
 }
 
 @media screen and (max-width: 767px) {
@@ -125,13 +126,24 @@ text-transform: uppercase;
 }
     
 #kutipan li h2 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 2rem;
     
 }
 }
 
-@media screen and (max-height: 352px) {
+@media screen and (max-width: 768px) {
 #catatan {
     display: none;
+}
+}
+
+@media screen and (max-height: 500px) {
+	h2 {
+		font-size: 1rem;
+	}
+	
+	h3 {
+		font-size: .8rem;
+	}
 }

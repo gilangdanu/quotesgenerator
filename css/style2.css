@@ -1,5 +1,4 @@
-
-
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic);
 
 /* CUSTOMIZE STARTS FROM HERE */
 /* BIRU-GOLDEN */
@@ -138,20 +137,25 @@ margin-right: .5rem;
 }
     
 #kutipan li h2 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 2rem;
     
 }
 }
 
-@media screen and (max-width:
-640px) {
-#kotakkutipan {
-margin-left: 1rem;
-margin-right: 1rem;
-}}
-
-@media screen and (max-height: 352px) {
+@media screen and (max-width: 768px) {
 #catatan {
     display: none;
+}
+}
+
+@media screen and (max-height: 500px) {
+	h2 {
+		font-size: 1rem;
+	}
+	
+	h3 {
+		font-size: .8rem;
+	}
+}
 }

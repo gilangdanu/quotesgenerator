@@ -1,4 +1,4 @@
-
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,600);
 /* CUSTOMIZE STARTS FROM HERE */
 /* BIRU-GOLDEN */
 
@@ -42,9 +42,10 @@
   animation-name: fadeInDown;
 }
 
+h2 {font-weight: 600;}
 
 h2, h3 {
-    font-family: sans-serif;
+    font-family: 'Droid Sans', sans-serif;
     color: ghostwhite;
     padding: 1rem;
 }
@@ -52,7 +53,6 @@ h2, h3 {
 h3.author {
     font-style: italic;
         color: ghostwhite;
-    font-size: 1.414rem;
 }
 
 
@@ -158,7 +158,7 @@ margin-right: .5rem;
 }
     
 #kutipan li h2 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 2rem;
     
 }
@@ -171,7 +171,17 @@ margin-left: auto;
 margin-right: auto;
 }}
 
-@media screen and (max-height: 352px) {
+@media screen and (max-width: 768px) {
 #catatan {
     display: none;
+}}
+
+@media screen and (max-height: 500px) {
+	h2 {
+		font-size: 1rem;
+	}
+	
+	h3 {
+		font-size: .8rem;
+	}
 }

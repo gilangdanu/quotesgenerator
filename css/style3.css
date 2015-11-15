@@ -54,7 +54,6 @@ h2, h3 {
 
 h3.author {
     width: 100%;
-    font-size: 1.414rem;
     font-style: italic;
     font-family: 'Lora', serif;
     color: #4B3F72;
@@ -67,6 +66,7 @@ h3.author {
 
 .author > a {
     text-decoration: none;
+	color: #892a3f;
 }
 
 #tandakutip {
@@ -160,7 +160,7 @@ margin-right: .5rem;
 }
     
 #kutipan li h2 {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     line-height: 2rem;
     
 }
@@ -173,7 +173,18 @@ margin-left: 1rem;
 margin-right: 1rem;
 }}*/
 
-@media screen and (max-height: 352px) {
+@media screen and (max-width: 768px) {
 #catatan {
     display: none;
+}
+}
+
+@media screen and (max-height: 500px) {
+	h2 {
+		font-size: 1rem;
+	}
+	
+	h3 {
+		font-size: 0.8rem;
+	}
 }
