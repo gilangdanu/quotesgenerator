@@ -1,0 +1,177 @@
+
+/* CUSTOMIZE STARTS FROM HERE */
+/* BIRU-GOLDEN */
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+
+h2, h3 {
+    font-family: sans-serif;
+    color: ghostwhite;
+    padding: 1rem;
+}
+
+h3.author {
+    font-style: italic;
+        color: ghostwhite;
+    font-size: 1.414rem;
+}
+
+
+.author > a {
+    text-decoration: none;
+    color: peachpuff;
+}
+
+#tandakutip {
+display: none }
+
+#kotakkutipan {
+/*background: #DD5E89
+background: -webkit-linear-gradient(to left, #DD5E89 , #F7BB97); 
+background: linear-gradient(to left, #DD5E89 , #F7BB97);*/
+
+
+background: #DE6262 /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #DE6262 , #FFB88C); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #DE6262 , #FFB88C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+            
+border-radius: .3rem;
+}
+
+.wrapper {
+    margin:0;
+    padding:0;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow:hidden;
+    
+
+}
+
+#tombol
+    { transition: all .2s ease-in-out; }
+
+#tombol:hover{
+    opacity: 0.7;
+ transform: scale(1.1);
+}
+
+#sharebulat {
+    border-color: #DD5E89;
+    color: peachpuff;
+}
+
+
+#sharebulat i:hover {
+    color: #ccc;
+    cursor: pointer;
+
+}
+
+#sharedepan {
+    color: #DE6262;
+}
+
+#pencetrefreshstyle6 {
+    display: none;
+}
+
+#pencetrefresh button {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+#site-title h1{
+    font-size:2rem;
+}
+    
+
+#pencetrefresh >
+.button--bordered {
+width:14rem;
+border-color: ghostwhite;
+background-color: transparent;
+color: ghostwhite;
+border-radius: 4rem;
+}
+
+#pencetrefresh >
+.button--bordered:hover,
+.button--bordered:focus {
+    background-color: RGBa(255,255,255,.4);
+    color: ghostwhite; }
+
+#catatan h4 {
+    color:peachpuff;
+}
+
+@media screen and (max-width: 479px) {
+
+#kotakkutipan {
+margin-left: .5rem;
+margin-right: .5rem;
+}
+    
+#catatan h4 {
+    text-align: center!important;
+    margin-top: .5rem;
+}
+    
+#kutipan li h2 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    
+}
+}
+
+@media screen and (max-width:
+640px) {
+#kotakkutipan {
+margin-left: auto;
+margin-right: auto;
+}}
+
+@media screen and (max-height: 352px) {
+#catatan {
+    display: none;
+}

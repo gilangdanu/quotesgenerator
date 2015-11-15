@@ -1,0 +1,157 @@
+
+
+
+/* CUSTOMIZE STARTS FROM HERE */
+/* BIRU-GOLDEN */
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+
+h2, h3 {
+    font-family: sans-serif;
+    color: ghostwhite;
+    padding: 1rem;
+}
+
+.author {
+        font-size: 1.414rem;
+    font-style: italic;
+        color: ghostwhite;
+}
+
+.author > a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+#tandakutip {
+display: none }
+
+#kotakkutipan {
+    background-color: rgba(126, 126, 126, 0.4);
+    border-radius: .6rem;
+}
+
+.wrapper {
+    margin:0;
+    padding:0;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow:hidden;
+    background-image: url(https://unsplash.it/1440/900/?random)
+
+}
+
+#tombol:hover{
+    opacity: 0.7;
+}
+
+#sharebulat {
+    color: ghostwhite;
+}
+
+
+#sharebulat i:hover {
+    color: #ccc;
+    cursor: pointer;
+
+}
+
+#sharedepan {
+    color: #4f4f4f;
+}
+
+#pencetrefresh button {
+    margin-bottom: 3rem;
+}
+
+#pencetrefreshstyle6 {
+    display: none;
+}
+
+#pencetrefresh >
+.button--bordered {
+border-radius: 4em;
+border-color: transparent;
+background-color: ghostwhite;
+color: #4f4f4f;
+}
+
+#pencetrefresh >
+.button--bordered:hover,
+.button--bordered:focus {
+    border-color: ghostwhite;
+    background-color: transparent;
+    color: ghostwhite; }
+
+#catatan h4 {
+    color:ghostwhite;
+}
+
+@media screen and (max-width: 480px) {
+
+#kotakkutipan {
+margin-left: .5rem;
+margin-right: .5rem;
+}
+    
+#catatan h4 {
+    text-align: center !important;
+}
+    
+#kutipan li h2 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    
+}
+}
+
+@media screen and (max-width:
+640px) {
+#kotakkutipan {
+margin-left: 1rem;
+margin-right: 1rem;
+}}
+
+@media screen and (max-height: 352px) {
+#catatan {
+    display: none;
+}

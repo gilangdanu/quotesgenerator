@@ -1,0 +1,134 @@
+
+/* CUSTOMIZE STARTS FROM HERE */
+/* BIRU-GOLDEN */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+
+
+h2, h3 {
+    font-family: serif;
+    color: #68522D;
+    text-align: justify;
+}
+    
+h3.author {
+    padding-top: .5rem;
+    font-size: 1.414rem;
+    font-style: italic;
+    color: #68522D;
+    text-align: right;
+}
+
+.author a {
+    text-decoration: none;
+    color: #b4945e;
+}
+
+.author a:hover {
+   color: ghostwhite;
+}
+  
+
+#tandakutip {
+    color: #68522D;
+}
+
+.wrapper {
+    margin:0;
+    padding:0;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow:hidden;
+    background-color: #213044;
+}
+
+#tombol
+    { transition: all .2s ease-in-out; }
+
+#tombol:hover{
+ transform: scale(1.1);
+    cursor: pointer;
+}
+
+#sharebulat{
+    color: #68522D;
+}
+
+#sharedepan {
+    color: ghostwhite;
+}
+
+#pencetrefresh {
+    display: none;
+}
+
+#pencetrefreshstyle6 >
+.button--bordered {
+border-color: #a78856;
+color: #a78856;
+}
+
+#pencetrefreshstyle6 >
+.button--bordered:hover,
+.button--bordered:focus {
+    background-color: #a78856;
+    color: white; }
+
+#catatan h4 {
+    color:#68522D;
+}
+
+@media screen and (max-width: 480px) {
+#catatan h4 {
+    text-align: center !important;
+}
+    
+#kutipan li h2 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    
+}
+}
+
+@media screen and (max-height: 352px) {
+#catatan {
+    display: none;
+}

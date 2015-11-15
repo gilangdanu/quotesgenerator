@@ -1,0 +1,137 @@
+@import  url(http://fonts.googleapis.com/css?family=Crimson+Text:300,300italic,400,400italic,500,700);
+
+/* CUSTOMIZE STARTS FROM HERE */
+/* BIRU-GOLDEN */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+
+
+h2, h3 {
+    border-top: 2px solid #4f4f4f;
+    font-family: serif;
+    color: #4f4f4f;
+    text-align: justify;
+    padding-top:2.2rem;   
+}
+
+h3.author {
+    font-size: 1.414rem;
+    font-family: serif;
+    color: #4f4f4f;
+    text-align: center;
+
+}
+
+.author a {
+    text-decoration: none;
+    color: #767676;
+}
+
+.author a:hover {
+    color: #ccc;
+}
+#tandakutip {
+display: none }
+
+.wrapper {
+    margin:0;
+    padding:0;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow:hidden;
+    background-color: ghostwhite;
+}
+
+#tombol
+    { transition: all .2s ease-in-out; }
+
+#tombol:hover{
+ transform: scale(1.1);
+    cursor: pointer;
+}
+
+#sharebulat{
+    color: #4f4f4f;
+}
+
+#sharedepan {
+    color: ghostwhite;
+}
+
+/*matiin di style ini */
+#pencetrefresh {
+display: none;
+}
+
+#pencetrefreshstyle6 >
+.button--bordered {
+border-color: #4f4f4f;
+color: #4f4f4f;
+letter-spacing: .5em;
+text-transform: uppercase;
+}
+
+#pencetrefreshstyle6 >
+.button--bordered:hover,
+.button--bordered:focus {
+    background-color: #4f4f4f;
+    color: white; }
+
+#catatan h4 {
+    color:#68522D;
+}
+
+@media screen and (max-width: 767px) {
+#catatan h4 {
+    text-align: center !important;
+}
+    
+#kutipan li h2 {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    
+}
+}
+
+@media screen and (max-height: 352px) {
+#catatan {
+    display: none;
+}
