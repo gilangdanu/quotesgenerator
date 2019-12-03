@@ -1,2 +1,2 @@
 # quotesgenerator
-http://gilangdanu.com/quotesgenerator/
+http://gilangda.nu/quotesgenerator/
